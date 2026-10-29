@@ -1,0 +1,22 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+local.properties
+
+# Android / Gradle / IDE
+.gradle/
+.kotlin/
+**/build/
+.idea/
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# Local scratch and OS files
+work/
+.DS_Store
+Thumbs.db
